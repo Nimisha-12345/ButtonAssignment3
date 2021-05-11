@@ -18,7 +18,7 @@
   margin-left: -40px;
   background-size: 96px 37px;
 }
-.button h3 {
+.btn-primary {
   position: absolute;
   color: gainsboro;
   font-size: 17px;
@@ -26,7 +26,8 @@
   width: -69px;
   height: 38px;
   text-align: center;
-  padding: 7px 15px;
+  padding: 10px 15px;
+  text-decoration: none;
 }
 .image {
   display: flex;
@@ -34,19 +35,20 @@
   align-items: center;
   margin-left: 130px;
 }
-.image h2 {
+.btn-secondary {
   margin-top: -3px;
   border-radius: 87px;
   background: url(Project.png);
   background-position: center;
   background-repeat: repeat-x;
   margin-right: 472px;
-  width: 359px;
+  width: 333px;
   font-family: fangsong;
   padding-bottom: 20px;
   padding-right: 20px;
   padding-left: 25px;
   padding-top: 10px;
+  text-decoration: none;
   font-size: 19px;
   background-size: cover;
   color: gainsboro;
