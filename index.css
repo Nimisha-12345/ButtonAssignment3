@@ -10,24 +10,10 @@
   margin: 227px auto;
 }
 
-.button {
-  background-image: url(Project.png);
-  background-position: initial;
-  background-repeat: no-repeat;
-  height: 38px;
-  margin-left: -40px;
-  background-size: 96px 37px;
-}
 .btn-primary {
   position: absolute;
-  color: gainsboro;
-  font-size: 17px;
-  font-family: serif;
-  width: -69px;
-  height: 38px;
+  margin-left: -45px;
   text-align: center;
-  padding: 10px 15px;
-  text-decoration: none;
 }
 .image {
   display: flex;
@@ -36,14 +22,13 @@
   margin-left: 130px;
 }
 .btn-secondary {
-  margin-top: -3px;
-  border-radius: 87px;
-  background: url(Project.png);
-  background-position: center;
-  background-repeat: repeat-x;
   margin-right: 472px;
-  width: 333px;
-  font-family: fangsong;
+}
+.btn {
+  background: url(Project.png);
+  background-repeat: no-repeat;
+  border-radius: 87px;
+  background-position: center;
   padding-bottom: 20px;
   padding-right: 20px;
   padding-left: 25px;
@@ -53,4 +38,5 @@
   background-size: cover;
   color: gainsboro;
   height: 11px;
+  font-family: fangsong;
 }
